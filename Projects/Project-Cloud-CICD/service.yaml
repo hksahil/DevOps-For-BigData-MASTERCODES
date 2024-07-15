@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloudservicee
+spec:
+  selector:
+    app: myapp
+  ports:
+  - port: 8503
+    targetPort: 8503
+  type: LoadBalancer

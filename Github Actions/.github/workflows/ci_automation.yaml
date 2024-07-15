@@ -1,0 +1,35 @@
+# Name of worflow/job/action
+name: Run Pandas Job
+
+# When to do
+# Triggers for worflow
+on:
+  # event based triggers
+  push:
+    branches:
+    - main
+    - master
+  pull_request:
+    branches:
+    - main
+    # time based trigger
+  schedule:
+  - cron: '0 0 * * *'
+
+# What to do
+jobs:
+  run_pandas_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      #owner/repo@version
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+
+    - name: Install dependencies
+      run: pip install pandas
+
+    - name: Run Pandas job
+      run: python app.py

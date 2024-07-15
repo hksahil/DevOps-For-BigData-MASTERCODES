@@ -1,0 +1,32 @@
+name: ETL Pipeline
+
+on:
+  schedule:
+  # '0 17 * * *' // 5pm
+  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  etl-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: pip install pandas requests datetime
+
+    - name: Run ETL script
+      run: python app.py
+
+    - name: Publish to git repo
+      uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH_NAME: 'main'

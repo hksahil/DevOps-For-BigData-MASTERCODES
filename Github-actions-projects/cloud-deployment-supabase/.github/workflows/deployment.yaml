@@ -1,0 +1,26 @@
+name: Upload to Supabase Storage
+
+on:
+  push:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+
+    env:
+      SUPABASE_PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
+      SUPABASE_API_KEY: ${{ secrets.SUPABASE_API_KEY }}
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: brendenehlers/supabase-storage-upload@v1
+      id: test-action
+      with:
+        repo_directory: ${{ github.workspace }}
+        upload_directory_path: 'data'
+        bucket_name: 's3'
+
+    - name: Print Output
+      id: output
+      run: echo "${{ steps.test-action.outputs.message }}"

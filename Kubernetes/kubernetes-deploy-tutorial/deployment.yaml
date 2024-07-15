@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-test-app
+spec:
+  selector:
+    matchLabels:
+      app: flask-test-app
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: flask-test-app
+    spec:
+      containers:
+      - name: flask-test-app
+        image: hkseal/docker-git-integrated:latest
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: "1"
+          requests:
+            memory: 256Mi
+            cpu: "0.2"
