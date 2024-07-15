@@ -8,8 +8,6 @@ This repository is made for the Devops cohort at GrowDataSkills.
 **Instructor:** Sahil Choudhary  
 **LinkedIn:** [Sahil Choudhary](https://www.linkedin.com/in/offiicialhksahil/)
 
----
-
 ## Details of the Cohort
 
 ### Topics to be Covered
@@ -24,8 +22,6 @@ This repository is made for the Devops cohort at GrowDataSkills.
 4. **Modern Deployment Solutions**
     - Supabase
     - Streamlit
-
----
 
 ## Repository Structure
 
@@ -45,8 +41,6 @@ The repository is organized to facilitate easy navigation and learning. Each top
 - **Modern Deployment Solutions**
   - `supabase/`
   - `streamlit/`
-
----
 
 ## How to Use This Repository
 
