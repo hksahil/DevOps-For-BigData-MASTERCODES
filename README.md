@@ -6,7 +6,7 @@ This repository is made for the Devops cohort at GrowDataSkills.
 
 **Course Name:** DevOps for BigData  
 **Instructor:** Sahil Choudhary  
-**LinkedIn:** [Sahil Choudhary](https://www.linkedin.com/in/offiicialhksahil/)
+**Connect with me here for networking/doubt:** [Sahil Choudhary - LinkedIn](https://www.linkedin.com/in/offiicialhksahil/)
 
 ## Details of the Cohort
 1. **Syllabus of cohort:** [Syllabus](https://hksahil.notion.site/Syllabus-ad77970c93a54bac8bf4b73be2dafb77?pvs=4)
