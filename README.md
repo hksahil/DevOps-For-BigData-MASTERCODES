@@ -23,28 +23,14 @@ This repository is made for the Devops cohort at GrowDataSkills.
     - Supabase
     - Streamlit
 
-## Repository Structure
-
-The repository is organized to facilitate easy navigation and learning. Each topic covered in the course is separated into different directories with relevant code and resources.
-
-### Topics to be Covered
-
-- **GIT**
-  - `git-basics/`
-  - `github-desktop/`
-  - `github-website/`
-  - `github-actions/`
-- **Docker**
-- **Kubernetes**
-  - `minikube/`
-  - `Linode/`
-- **Modern Deployment Solutions**
-  - `supabase/`
-  - `streamlit/`
-
 ## How to Use This Repository
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-repo/devops-for-bigdata.git
    cd devops-for-bigdata
+
+## Tips from the Instructor
+1. Star this repository
+2. Fork this repository into your own Github Account
+
