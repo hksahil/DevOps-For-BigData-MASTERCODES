@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/aedcb098-fa7d-45e5-81c7-eecbb54fef68)# Welcome to My Code Repository
+# Welcome to My Code Repository
 
 This repository is made for the Devops cohort at GrowDataSkills.
 
