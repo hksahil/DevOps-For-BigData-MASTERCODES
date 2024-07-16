@@ -11,8 +11,8 @@ This repository is made for the Devops cohort at GrowDataSkills.
 
 
 ## Details of the Cohort
-1. **Syllabus of cohort:** [Syllabus](https://hksahil.notion.site/Syllabus-ad77970c93a54bac8bf4b73be2dafb77?pvs=4)
-2. **Detailed notes:** [Notes](https://hksahil.notion.site/DevOps-Bootcamp-c485182b26764de0b87202aaab1ad8fc?pvs=4)
+- **Syllabus of cohort:** [Syllabus](https://hksahil.notion.site/Syllabus-ad77970c93a54bac8bf4b73be2dafb77?pvs=4)
+- **Detailed notes:** [Notes](https://hksahil.notion.site/DevOps-Bootcamp-c485182b26764de0b87202aaab1ad8fc?pvs=4)
 
 ### Topics to be Covered
 
@@ -29,12 +29,12 @@ This repository is made for the Devops cohort at GrowDataSkills.
 
 ## How to Use This Repository
 
-1. **Clone the Repository**
+- **Clone the Repository**
    ```bash
    git clone https://github.com/your-repo/devops-for-bigdata.git
    cd devops-for-bigdata
 
 ## Tips from the Instructor
-1. Star this repository
-2. Fork this repository into your own Github Account
+- Star this repository
+- Fork this repository into your own Github Account
 
