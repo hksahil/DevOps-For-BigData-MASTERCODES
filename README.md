@@ -31,8 +31,8 @@ This repository is made for the Devops cohort at GrowDataSkills.
 
 - **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/devops-for-bigdata.git
-   cd devops-for-bigdata
+   git clone https://github.com/hksahil/DevOps-For-BigData-MASTERCODES.git
+   cd DevOps-For-BigData-MASTERCODES
 
 ## Tips from the Instructor
 - Star this repository
